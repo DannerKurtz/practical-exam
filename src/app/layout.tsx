@@ -1,6 +1,9 @@
 import './globals.css';
 
 import type { Metadata } from 'next';
+import { ShoppingCart } from 'lucide-react';
+import Button from '@/components/button';
+import Header from './(home)/header';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -14,7 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body>{children}</body>
+      <body className='bg-blue-400 text-gray-100 antialiased bg-no-repeat bg-top md:bg-right-top'>
+        <Header />
+
+        <main className='max-w-[1240px] mx-auto px-5 py-5 '>{children}</main>
+      </body>
     </html>
   );
 }
