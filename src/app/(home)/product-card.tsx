@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { ShoppingCart } from 'lucide-react';
-import Button from '../../components/button';
+import ButtonAddCart from '../../components/buttonAddCart';
 
 interface ProductCardProps {
   name: string;
@@ -37,9 +37,14 @@ export default function ProductCard(props: ProductCardProps) {
             <span className='text-2xl text-red-500'>{props.price}</span>
             {props.info && <p className='text-red-500'>{props.info}</p>}
           </div>
-          <Button className='bg-gray-500 text-white hover:bg-gray-700 hover:text-gray-100'>
+          <ButtonAddCart
+            name={props.name}
+            price={props.price}
+            image={props.image}
+            className='bg-gray-500 text-white hover:bg-gray-700 hover:text-gray-100'
+          >
             Add to Card <ShoppingCart />
-          </Button>
+          </ButtonAddCart>
         </div>
       </div>
     </>

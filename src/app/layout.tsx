@@ -2,7 +2,7 @@ import './globals.css';
 
 import type { Metadata } from 'next';
 import { ShoppingCart } from 'lucide-react';
-import Button from '@/components/button';
+import Button from '@/components/buttonAddCart';
 import Header from './(home)/header';
 
 export const metadata: Metadata = {
