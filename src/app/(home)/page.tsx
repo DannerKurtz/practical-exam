@@ -9,14 +9,7 @@ export default function Home() {
       </div>
       <div className='flex justify-center items-center flex-col'>
         <div className='grid md:grid-cols-4 gap-3.5'>
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          
         </div>
       </div>
     </div>
