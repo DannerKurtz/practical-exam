@@ -5,7 +5,7 @@ import ListedProductsCard from './listed-products-card';
 export default function Home() {
   return (
     <div>
-      <div>
+      <div className='mb-2.5'>
         <HeroSection src='https://random.imagecdn.app/940/300' />
       </div>
       <div className='flex justify-center items-center flex-col'>
