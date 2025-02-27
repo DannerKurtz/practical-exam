@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { ShoppingCart } from 'lucide-react';
 import ButtonAddCart from '../../components/buttonAddCart';
 
@@ -16,7 +15,7 @@ export default function ProductCard(props: ProductCardProps) {
   return (
     <div className='bg-gray-100 text-black w-full max-w-[250px] flex flex-col justify-between items-center p-4 rounded-lg shadow-md border border-gray-200'>
       <div className='relative w-full flex justify-center'>
-        <Image
+        <img
           className='w-[180px] h-[180px] object-cover rounded-lg'
           src={props.image}
           alt={props.name}
@@ -40,7 +39,7 @@ export default function ProductCard(props: ProductCardProps) {
           <p className='text-sm text-red-500 mt-1'>{props.info}</p>
         )}
       </div>
- 
+
       <div className='w-full mt-auto'>
         <ButtonAddCart
           name={props.name}

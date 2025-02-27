@@ -32,9 +32,9 @@ export default function HeroSection() {
         src={hero.image}
         alt={hero.name}
       />
-      <div className='absolute inset-0 bg-black bg-opacity-40'></div>
-      <div className='absolute inset-0 flex flex-col justify-center items-start text-white px-6 md:px-12 lg:px-24'>
-        <span className='text-lg md:text-xl lg:text-2xl font-bold text-yellow-400 mb-2'>
+      <div className='absolute inset-0  bg-opacity-40'></div>
+      <div className='absolute inset-0 flex flex-col justify-center items-start text-white px-6 md:px-12 lg:px-24 '>
+        <span className='text-lg md:text-xl lg:text-2xl font-bold text-white mb-2'>
           {hero.hero}
         </span>
         <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold mb-4'>
@@ -47,7 +47,7 @@ export default function HeroSection() {
           <span className='text-3xl md:text-4xl lg:text-5xl font-bold'>
             ${hero.price}
           </span>
-          <button className='bg-yellow-400 text-black px-8 py-3 rounded-lg text-lg font-semibold hover:bg-yellow-500 transition-colors'>
+          <button className='bg-gray-400 text-black px-8 py-3 rounded-lg text-lg font-semibold hover:bg-gray-500 transition-colors'>
             Veja Mais.
           </button>
         </div>

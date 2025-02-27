@@ -24,7 +24,7 @@ export default function ListedProductsCard() {
           detail={products.detail}
           price={products.price}
           info={products?.info}
-          image='https://random.imagecdn.app/300/300'
+          image={products.image}
           offer={products?.offer}
         />
       ))}
