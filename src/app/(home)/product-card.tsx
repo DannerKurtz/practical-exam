@@ -15,7 +15,6 @@ interface ProductCardProps {
 export default function ProductCard(props: ProductCardProps) {
   return (
     <div className='bg-gray-100 text-black w-full max-w-[250px] flex flex-col justify-between items-center p-4 rounded-lg shadow-md border border-gray-200'>
-      {/* Imagem Centralizada */}
       <div className='relative w-full flex justify-center'>
         <Image
           className='w-[180px] h-[180px] object-cover rounded-lg'
@@ -31,7 +30,6 @@ export default function ProductCard(props: ProductCardProps) {
         )}
       </div>
 
-      {/* Informações do Produto */}
       <div className='flex flex-col flex-1 w-full text-center mt-3'>
         <h2 className='font-bold text-lg'>{props.name}</h2>
         <p className='text-gray-600 text-sm'>{props.detail}</p>
@@ -42,8 +40,7 @@ export default function ProductCard(props: ProductCardProps) {
           <p className='text-sm text-red-500 mt-1'>{props.info}</p>
         )}
       </div>
-
-      {/* Botão de Adicionar ao Carrinho */}
+ 
       <div className='w-full mt-auto'>
         <ButtonAddCart
           name={props.name}
