@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+@theme {
+  --max-w-2xs: 20rem;
+}
