@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Super Smartphone X",
+    "detail": "O mais avançado smartphone do mercado.",
+    "price": "799",
+    "hero": "Novidade! O futuro na palma da sua mão.",
+    "image": "https://t.ctcdn.com.br/Ecu3VUlOA-gR1jufff2VvFqbxq4=/1024x576/smart/i574615.jpeg"
+  },
+  {
+    "name": "Notebook Lightning Pro",
+    "detail": "Desempenho incrível para trabalho e jogos.",
+    "price": "1299",
+    "info": "Equipado com o processador mais rápido do mundo.",
+    "image": "https://cdn.awsli.com.br/300x300/2709/2709834/produto/270912596/notebook_galaxy_book3_360_intel_i7-1360p_16gb_512gb_ssd_15-9q6cigy72k.jpg"
+  },
+  {
+    "name": "Fone Bluetooth SkySound",
+    "detail": "Som de alta qualidade sem fios.",
+    "price": "149",
+    "offer": "Leve 2, pague 1",
+    "image": "https://cdn.awsli.com.br/300x300/61/61454/produto/276444609/captura-de-tela-2024-06-21-102915-kjuifhv9rv.png"
+  },
+  {
+    "name": "Smartwatch Health+",
+    "detail": "Monitoramento de saúde 24/7.",
+    "price": "199",
+    "image": "https://ismarch.com/wp-content/uploads/2023/05/X6-300x300.jpg"
+  },
+  {
+    "name": "Tablet Vision 10",
+    "detail": "Tela nítida e desempenho fluido.",
+    "price": "299",
+    "offer": "Frete grátis",
+    "image": "https://t.ctcdn.com.br/6mM73KHS-muru719uiduLl8m49M=/fit-in/600x600/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i885797.png"
+  },
+  {
+    "name": "Câmera 4K ActionCam",
+    "detail": "Grave suas aventuras em alta definição.",
+    "price": "249",
+    "image": "https://cdn.awsli.com.br/300x300/61/61454/produto/246002470/1690965990_1776323-485gb9oqeb.jpg"
+  },
+  {
+    "name": "Console GameMax",
+    "detail": "A melhor experiência de jogos.",
+    "price": "499",
+    "info": "Inclui 3 jogos grátis na compra.",
+    "offer": "Promoção relâmpago",
+    "image": "https://m.media-amazon.com/images/I/51zF+UZ8BiL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "name": "Drone SkyFlyer",
+    "detail": "Capture o mundo de novos ângulos.",
+    "price": "349",
+    "image": "https://marcelowatch.com.br/wp-content/uploads/2023/11/0b7c3944f1ce8667caa11dad8750e35e-removebg-preview-300x300.png"
+  },
+  {
+    "name": "Caixa de Som BassBoom",
+    "detail": "Potência e qualidade de som incomparáveis.",
+    "price": "89",
+    "offer": "Desconto de 20%",
+    "image": "https://images.tcdn.com.br/img/img_prod/649613/90_caixa_de_som_bluetooth_bomber_party_1360_8_1500w_festa_16503_2_29f3860b0a18901dbfe1f4983001451b.jpg"
+  },
+  {
+    "name": "Monitor UltraWide 34''",
+    "detail": "Produtividade e imersão em um só lugar.",
+    "price": "599",
+    "info": "Perfeito para multitarefas e jogos.",
+    "image": "https://saldaodainformatica.com.br/img/p/9/5/8/1/9581-medium_default.webp"
+  }
+]
