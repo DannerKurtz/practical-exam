@@ -1,5 +1,5 @@
 import ProductCard from './product-card';
-import productsJson from './../../../products.json';
+import productsJson from './../lib/products.json';
 
 export default function ListedProductsCard() {
   interface IListProducts {

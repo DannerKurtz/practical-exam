@@ -1,4 +1,4 @@
-import productsJson from './../../../products.json';
+import productsJson from './../lib/products.json';
 
 interface HeroSectionProps {
   name: string;
