@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <div className='mb-2.5'>
-        <HeroSection src='https://random.imagecdn.app/940/300' />
+        <HeroSection />
       </div>
       <div className='flex justify-center items-center flex-col'>
         <div className=''>
